@@ -1,0 +1,193 @@
+@import "reset.css";
+/*引入css文件的一种方式*/
+/*
+
+-ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=1,startColorstr=#99ffffff,endColorstr=#99ffffff)";
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#99ffffff,endColorstr=#99ffffff);
+background:rgba(255,255,255,.8);
+
+
+ filter:alpha(opacity=40); 针对 IE8 以及更早的版本 */
+ body{
+ 	font-size: 16Px;
+ }
+
+.bg2e2d4e
+	background #2e2d4e
+.header
+	img
+		display block
+		width 100%
+.main
+	background radial-gradient(circle at center bottom, #2eddfe 0%,#4a2889 70%, #2e2d4e 80%) center bottom -100px/150% 700px no-repeat
+	padding-bottom 130px
+	.bg585771
+		margin 0 40px
+		padding 20px 20px 50px
+		border-radius 20px
+		font-size 26px
+		background rgba(255,255,255,0.2)
+		p
+			color #fff
+			line-height 2
+			text-indent 2em
+		.wechat
+			margin 30px 0
+			text-align center
+			line-height 54px
+			color #ffd800
+			border-radius 27px
+			background #4d4c6b
+		.pic
+			padding 20px 0
+			&.dfsb
+				display -webkit-flex
+				display -moz-flex
+				display -ms-flex
+				display -o-flex
+				display flex
+				justify-content space-between
+			span
+				display block
+			img
+				display block
+				width 100%
+				border-radius 10px
+			.w196
+				display block
+				width 196px
+			.w304
+				display block
+				width 304px
+			.w619
+				margin 0 auto
+				display block
+				width 619px
+		.title
+			display -webkit-flex
+			display -moz-flex
+			display -ms-flex
+			display -o-flex
+			display flex
+			align-items center
+			justify-content center
+			height 86px
+			background #3b3964
+			&+p
+				padding-top 20px
+			span
+				display block
+			.w366
+				display block
+				width 366px
+			.w300
+				display block
+				width 300px
+	.lead
+		margin 0 40px
+		padding 40px 0
+		img
+			display block
+			width 100%
+.footer
+	position relative
+	display -webkit-flex
+	display -moz-flex
+	display -ms-flex
+	display -o-flex
+	display flex
+	height 103px
+	align-items center
+	justify-content flex-end
+	background #8519ff
+	.user-pic
+		position absolute
+		bottom 10px
+		left 10px
+		border 8px solid #8519ff
+		border-radius 50%
+		overflow hidden
+		img
+			display block
+			width 166px
+	.wechat
+		display -webkit-flex
+		display -moz-flex
+		display -ms-flex
+		display -o-flex
+		display flex
+		align-items center
+		a
+			margin 0 20px
+			display block
+			height 50px
+			font-size 22px
+			color #fff
+			line-height 50px
+			padding 0 10px
+			border-radius 25px
+			border 2Px solid #ffff
+		span 
+			display block
+			padding-right 80px
+			font-size 32px
+			color #fff
+			font-weight bold
+			background url(../img/hico14.png) right center/45px auto no-repeat
+
+
+.layout
+	position fixed
+	left 0
+	right 0
+	top 0
+	bottom 0
+	background rgba(0,0,0,0.6)
+	display -webkit-flex
+	display -moz-flex
+	display -ms-flex
+	display -o-flex
+	display flex
+	align-items center
+	justify-content center
+	transition 0.3s
+	&.active
+		transform translate(-100%, 0)
+	.wrap
+		position relative
+		padding 60px 120px
+		text-align center
+		background #fff
+		border-radius 10px
+		h3
+			padding 0 0 30px
+			font-size 36px
+			color #000
+			span
+				color #5f52a0
+		.wechat
+			line-height 70px
+			font-size 44px
+			color #fff
+			font-weight bold
+			border-radius 5px
+			background #5f52a0
+		p
+			padding-bottom 30px
+			font-size 32px
+			color #242424
+			line-height 2
+		img
+			display block
+			margin 0 auto
+			width 340px
+		.close
+			position absolute
+			right 0
+			top 0
+			transform translate(50%, -50%)
+			width 100px
+			height 100px
+			border-radius 50%
+			background #5f52a0 url(../img/hico18.png) center center/40px 40px no-repeat
+
